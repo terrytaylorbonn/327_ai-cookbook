@@ -39,6 +39,7 @@ response = client.responses.create(
 )
 
 event = json.loads(response.output_text)
+print(event)
 
 # --------------------------------------------------------------
 # Using a Pydantic model (and simple response format)
